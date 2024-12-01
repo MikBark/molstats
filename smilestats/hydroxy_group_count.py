@@ -1,6 +1,6 @@
 import networkx as nx
 
-from molstats.helper import add_hydrogens, hydrogen_neighbor_count
+from smilestats.helper import add_hydrogens, hydrogen_neighbor_count
 
 
 def hydroxy_group_count(molecule: nx.Graph, safety: bool = True) -> int:

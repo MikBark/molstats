@@ -1,6 +1,6 @@
-from smilestats import aromatic_ring_count
-
 from pysmiles import read_smiles
+
+from smilestats import aromatic_ring_count
 
 
 def test_one_aromatic_ring():
