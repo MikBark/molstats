@@ -8,8 +8,6 @@ AROMATIC_RING_MOL_COUNT = 6
 
 def aromatic_ring_count(molecule: nx.Graph, safety: bool = True) -> int:
     """
-    TODO: Write info about func
-
     Parameters
     ----------
     molecule : networkx.Graph

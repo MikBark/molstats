@@ -5,8 +5,6 @@ from molstats.helper import add_hydrogens, hydrogen_neighbor_count
 
 def hydroxy_group_count(molecule: nx.Graph, safety: bool = True) -> int:
     """
-    TODO: Write info about func
-
     Parameters
     ----------
     molecule : networkx.Graph
@@ -21,7 +19,7 @@ def hydroxy_group_count(molecule: nx.Graph, safety: bool = True) -> int:
 
     Returns
     -------
-    int
+    oh_count : int
         The number of hydroxy group (OH) in the molecule.
     """
     if safety:

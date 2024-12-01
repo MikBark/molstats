@@ -3,8 +3,6 @@ import networkx as nx
 
 def cl_count(molecule: nx.Graph) -> int:
     """
-    TODO: Write info about func
-
     Parameters
     ----------
     molecule : networkx.Graph

@@ -4,8 +4,7 @@ from molstats.helper import add_hydrogens, hydrogen_neighbor_count
 
 
 def methyl_group_count(molecule: nx.Graph, safety: bool = True) -> int:
-    """TODO: Write info about func
-
+    """
     Parameters
     ----------
     molecule : networkx.Graph
