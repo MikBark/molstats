@@ -1,6 +1,6 @@
 import networkx as nx
 
-from molstats.helper import add_aromatic_atoms
+from smilestats.helper import add_aromatic_atoms
 
 # Aromating ring must contain 6 "C" elements
 AROMATIC_RING_MOL_COUNT = 6

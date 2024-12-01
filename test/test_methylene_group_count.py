@@ -1,6 +1,6 @@
 from pysmiles import read_smiles
 
-from molstats import methylene_group_count
+from smilestats import methylene_group_count
 
 
 def test_zero_methylene_group_count():

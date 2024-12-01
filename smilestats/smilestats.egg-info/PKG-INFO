@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: smilestats
+Version: 0.0.1
+Requires-Dist: pysmiles==1.1.2
+Requires-Dist: importlib-metadata; python_version == "3.10"

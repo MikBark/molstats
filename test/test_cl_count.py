@@ -1,6 +1,6 @@
 from pysmiles import read_smiles
 
-from molstats import cl_count
+from smilestats import cl_count
 
 
 def test_cl_count():

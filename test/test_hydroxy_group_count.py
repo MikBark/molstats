@@ -1,6 +1,6 @@
 from pysmiles import read_smiles
 
-from molstats import hydroxy_group_count
+from smilestats import hydroxy_group_count
 
 
 def test_one_hydroxy_group():

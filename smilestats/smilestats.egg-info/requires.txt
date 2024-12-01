@@ -1,0 +1,4 @@
+pysmiles==1.1.2
+
+[:python_version == "3.10"]
+importlib-metadata

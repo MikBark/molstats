@@ -4,13 +4,20 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "smilestats"
-version = "0.0.1"
+version = "0.0.2"
+authors = [
+    {name = "Barkov Mikhail", email = "mik.bar@tutamail.com"},
+]
 dependencies = [
     "pysmiles==1.1.2",
     'importlib-metadata; python_version=="3.10"',
 ]
+readme = "README.md"
+keywords = ["SMILES", "cheminformatics", "chemistry"]
+
+[project.urls]
+Homepage = "https://github.com/MikBark/smilestats"
 
 [tool.setuptools.packages.find]
-where = ["src"]
+where = ["smilestats"]
 include = ["smilestats*"]
-exclude = ["tests*"]

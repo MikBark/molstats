@@ -1,0 +1,5 @@
+from smilestats.aromatic_ring_count import aromatic_ring_count
+from smilestats.hydroxy_group_count import hydroxy_group_count
+from smilestats.methylene_group_count import methylene_group_count
+from smilestats.methyl_group_count import methyl_group_count
+from smilestats.cl_count import cl_count

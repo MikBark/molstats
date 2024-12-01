@@ -1,4 +1,4 @@
-from molstats import aromatic_ring_count
+from smilestats import aromatic_ring_count
 
 from pysmiles import read_smiles
 
