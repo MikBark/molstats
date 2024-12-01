@@ -8,7 +8,7 @@ def methyl_group_count(molecule: nx.Graph, safety: bool = True) -> int:
     Parameters
     ----------
     molecule : networkx.Graph
-        The networkx object.Graph created using pysmiles from a molecule containing (or
+        The networkx.Graph created using pysmiles from a molecule containing (or
         not containing) a methylene group (CH3).
     safety : bool (default=True)
         If the checkbox is set to True, the calculations do not affect the transferred

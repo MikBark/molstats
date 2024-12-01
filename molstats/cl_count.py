@@ -6,7 +6,7 @@ def cl_count(molecule: nx.Graph) -> int:
     Parameters
     ----------
     molecule : networkx.Graph
-        The networkx object.Graph created using pysmiles from a molecule containing (or
+        The networkx.Graph created using pysmiles from a molecule containing (or
         not containing) an Cl element.
 
     Returns
