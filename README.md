@@ -23,7 +23,7 @@ See more in the `examples`.
 
 # Functions 
 
-### aromatic_ring_count
+### aromatic_ring_count ([src](https://github.com/MikBark/smilestats/blob/master/smilestats/aromatic_ring_count.py))
 
 ```
     Parameters
@@ -46,7 +46,7 @@ See more in the `examples`.
         The number of aromatic rings in the molecule.
 ```
 
-### hydroxy_group_count
+### hydroxy_group_count ([src](https://github.com/MikBark/smilestats/blob/master/smilestats/hydroxy_group_count.py))
 
 ```
     Parameters
@@ -70,7 +70,7 @@ See more in the `examples`.
 ```
 
 
-### methylene_group_count
+### methylene_group_count ([src](https://github.com/MikBark/smilestats/blob/master/smilestats/methylene_group_count.py))
 
 ```
     Parameters
@@ -93,7 +93,7 @@ See more in the `examples`.
         The number of methylene group (CH2) in the molecule.
 ```
 
-### methyl_group_count
+### methyl_group_count ([src](https://github.com/MikBark/smilestats/blob/master/smilestats/methyl_group_count.py))
 
 ```
     Parameters
@@ -116,7 +116,7 @@ See more in the `examples`.
         The number of methyl group (CH3) in the molecule.
 ```
 
-### cl_count
+### cl_count ([src](https://github.com/MikBark/smilestats/blob/master/smilestats/cl_count.py))
 
 ```
     Parameters
