@@ -4,16 +4,17 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "smilestats"
-version = "0.0.4"
+version = "0.0.5"
 description = "A package to calculate molecule statistics by their smile encoding."
 authors = [
     {name = "Barkov Mikhail", email = "mik.bar@tutamail.com"},
 ]
-readme = "README.md"
+license = Apache 2.0
 keywords = ["SMILES", "cheminformatics", "chemistry"]
+readme = "README.md"
 dependencies = [
     "pysmiles==1.1.2",
-    'importlib-metadata; python_version=="3.10"',
+    'importlib-metadata; python_version>="3.8"',
 ]
 
 [project.urls]
