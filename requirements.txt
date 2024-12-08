@@ -1,2 +1,0 @@
-pysmiles==1.1.2
-pytest==8.3.3
